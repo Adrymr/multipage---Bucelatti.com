@@ -1,0 +1,574 @@
+:root{
+    --textColor:black; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    
+}
+
+html{
+    scroll-behavior: smooth; 
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.header{ 
+    height: 250px;
+    width: 100%;
+    background-image: url("../img/buccellati-logo.png");
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: 50%;
+}
+
+.nav{
+    width: 100%;
+    height: 60px;
+    background-color:black;
+    display: flex;
+    align-items: center;    /*centrar elemento en ambos ejes del div*/ 
+    justify-content: center;
+    margin-top: 35px;
+}
+
+.nav-lista{
+    display: flex;
+    
+}
+
+.list-item{
+    list-style: none;
+    margin-right:15px;
+    margin-left: 10px;
+    line-height: 45px;
+}
+
+.nav-anchor{
+    text-decoration: none;
+    color:white;
+}
+
+section{
+    height: 590px;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.information{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.information-imgs{
+    height: 610px;
+    width: 490px;
+}
+
+.information-text{
+    font-family: 'Cinzel', sans-serif;
+    position: relative;
+    top: 500px;
+    color: black;
+    font-weight: 500;
+    text-align: center;
+    /*background-color: whitesmoke;*/
+}
+
+h3{
+    font-family: 'Cinzel', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.information-text a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#sec2{
+    height: auto;
+    width: 100%;
+    align-items: center;    /*centrar elemento en ambos ejes del div*/ 
+    justify-content: center;
+}
+
+#sec2 p{
+    position: relative;
+    text-align: center;
+    font-family: 'Cinzel';
+    font-size: 18px;
+    font-weight: 400;
+    background-color: black;
+    height: 60px;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.jewellery{
+    width: 100%;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+}
+
+.jewellery-imgs{
+    position:relative;
+    height: 50%;
+    width: 50%;
+    left: 350px;
+    top: 100px;
+}
+
+.jewellery-text{
+    position: relative;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    /*background-color: whitesmoke;*/
+}
+
+.jewellery-text a{
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+    top: 20px;
+}
+
+#sec3{
+    height: 800px;
+    width: 100%;
+}
+
+.catalogo{
+    width: 100%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+}
+
+#sec3 p{
+    font-family: 'Cinzel';
+    position: absolute;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: black;
+    height: 60px;
+    width: 100%;
+    top: 50px;
+    color: whitesmoke;
+    padding-top: 20px;
+}
+
+.catalogo-imgs{
+    position: relative;
+    top: 100px;
+    margin-top: 50px;
+    padding: 70px;
+    height: 30%;
+    width: 30%;
+    margin-bottom: 40px;
+}
+
+.contact{
+    position: relative;
+    align-items: center;
+    text-align: center;
+    top: -80px;
+    
+}
+
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-style: italic;
+    font-style: 20px;
+}
+
+#sec-info1{
+    height: 1000px;
+}
+
+h2{
+    font-family: 'Cinzel';
+    font-weight: 500;
+    font-size: 25px;
+    margin-left: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.eslogan{
+    font-size: 22px;
+    font-family: 'Lato';
+    font-weight: 300;
+    font-style: italic;
+    margin-left: 30px;
+}
+
+.about-text{
+    margin: 30px 50px 10px 50px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.about-img{
+    height: 70%;
+    width: 70%;
+    padding-top: 35px;
+    position: relative;
+    left: 240px;
+    top: 70px;
+}
+
+#sec-jew1{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.jew1 h3{
+    font-family: 'Cinzel';
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.jew1 p{
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.column{
+    float: left;
+    width: 30%;
+    padding-right: 5px;
+}
+
+.fila::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.jew1-imgs{
+    position: relative;
+    left: 170px;
+}
+
+.brazalet-img{
+    margin-top: 35px;
+    height: 50%;
+    width: 50%;
+}
+
+.brazalet-img:hover{
+    border: solid 1px black;
+}
+
+#sec-jew2{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.jew2 h3{
+    font-family: 'Cinzel';
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.jew2 p{
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.jew2-imgs{
+    position: relative;
+    left: 170px;
+}
+
+.ring-img{
+    margin-top: 35px;
+    height: 50%;
+    width: 50%;
+}
+
+.ring-img:hover{
+    border: solid 1px black;
+}
+
+#sec-jew3{
+    height: 700px;
+    width: 100%;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.jew3 h3{
+    font-family: 'Cinzel';
+    font-weight: 500;
+    font-size: 35px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.jew3 p{
+    font-weight: 300;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.jew3-imgs{
+    position: relative;
+    left: 170px;
+}
+
+.pendant-img{
+    margin-top: 35px;
+    height: 50%;
+    width: 50%;
+}
+
+.pendant-img:hover{
+    border: solid 1px black;
+}
+
+#sec-catlog1{
+    height: 700px;
+}
+
+.cont-catlog{
+    position: relative;
+    top: 50px;
+}
+
+.catalogo-text{
+    margin: 30px 50px 10px 50px;
+    text-align: justify;
+    font-weight: 300;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.text-cont{
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo-title1{
+    position: relative;
+    left: -25px;
+}
+
+.catalogo-title2{
+    position: relative;
+    right: -42px;
+}
+
+.catalogo-title3{
+    position: relative;
+    right: -85px;
+}
+
+.catalago-cont{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;   
+}
+
+.catalago-imgs2{
+    height: 18%;
+    width: 18%;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.cont-anchor{
+    display: flex;
+    justify-content: center;
+}
+
+.catalogo-anchor{
+    padding-left: 120px;
+    padding-right:80px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+#sec-contact1{
+    height: 1250px;
+    text-align: center;
+}
+
+#sec-contact1 h2{
+    font-family: 'Cinzel';
+    font-weight: 500;
+    font-size: 26px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    margin-right: 15px;
+}
+
+#sec-contact1 h3{
+    font-family: 'Cinzel';
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.parrf{
+    margin-bottom: 10px;
+    padding: 30px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.parrf1{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.parrf2{
+    margin: 30px 50px 10px 50px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 18px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.email-box{
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+input{
+    font-size: 25px;
+}
+
+.email-box i{
+    background: black;
+    color: whitesmoke;
+    width: 60px;
+    line-height: 60px;
+}
+
+.tbox, .btn{
+    border:none;
+    outline: none;
+    font-size: 20px;
+    font-family: 'Lato';
+}
+
+.tbox{
+    width: 0;
+    transition: 0.6s;
+}
+
+.email-box:hover > .tbox, .tbox:focus{
+    width: 260px;
+    padding: 0 10px;
+}
+
+.btn{
+    background-color: black;
+    color: whitesmoke;
+    padding: 0 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.social-media{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.anchor-sm{
+    font-family: 'Lato';
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 10px;
+    padding-right: 15px;
+}
+
+.social-media i{
+    width: 20px;
+    line-height: 20px;
+}
+
+.up{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    z-index: 10;
+    position: fixed; /*superposicion de capas un div sobre otro*/
+    top: 88%;
+    right: 15px;
+    bottom: 30px;
+    right: 10px;
+    font-size: 1.5rem;
+}
+
+.up a{
+    text-decoration: none;
+    color:black;
+    border-color: 1px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.footer{
+    height: 60px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;    /*centrar elemento en ambos ejes del div*/ 
+    justify-content: center;
+    font-size: 15px;
+}
